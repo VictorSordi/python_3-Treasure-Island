@@ -23,10 +23,10 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island")
 print("Your mission is to find the treasure.")
 direction = input(
-    "You're at a cross road. Where do you want to go?\n  " "  Type 'left or 'right'\n")
+    "You\'re at a cross road. Where do you want to go?\n  " "  Type 'left or 'right'\n")
 if (direction == "Left" or direction == "left"):
     direction = input(
-        "You've come to a lake. There is a island in the middle of the lake.\n " " Type 'wait' to wait for a boat. Type 'swin' to swin across\n")
+        "You\'ve come to a lake. There is a island in the middle of the lake.\n " " Type 'wait' to wait for a boat. Type 'swin' to swin across\n")
     if (direction == "wait" or direction == "Wait"):
         door = input(
             "You arrive at the island unharmed. There is a house with 3 doors.\n " " One red, one yellow and one blue. Which colour do you choose?\n")
